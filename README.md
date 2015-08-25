@@ -30,7 +30,7 @@ controllers에 python 파일을 생성하여 원하는 함수를 정의해 준�
 
 URL을 통해 해당 python의 함수를 콜할 수 있다.  
 
-URL : https://<ip_address>/<application>/<python>/<function>/args(0)/args(1)/....  
+URL : https://ip_address/application/python/function/args(0)/args(1)/....  
 args(n)는 python 내에서 request.args(n) 형식으로 URL에 적은 내용을 불러올 수 있다.  
 URL에 적은 args()는 문자형이니 형변환이 필요할땐 원하는 형에 맞게 변환시켜서 사용한다.
 
