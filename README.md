@@ -13,6 +13,8 @@ sudo python web2py.py
 새로운 인증서를 만들어준다.  
 1. openssl genrsa -out server.key 2048  
 2. openssl req -new -key server.key -out server.csr  
+
+![images !](images.jpg)
 3. openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt  
 
   
