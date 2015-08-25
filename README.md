@@ -19,6 +19,7 @@ web2py 디렉토리에서 실행하거나 web2py 디렉토리에 생성된 파�
 3. openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt  
 4. sudo python web2py -i (ip_address) -p 8000 -a 'password' -c server.crt -k server.key  
 
+주소창에 입력한다.
 https:/ip_address:8000  
   
 
