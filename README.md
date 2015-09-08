@@ -28,7 +28,7 @@ application 생성후 edit화면에 들어가면 다음과 같은 화면이 나�
 ![2 !](2.jpg)  
 controllers에 python 파일을 생성하여 원하는 함수를 정의해 준다.  
 
-URL을 통해 해당 python의 함수를 콜할 수 있다.  
+restful api를 통해 해당 python의 함수를 콜할 수 있다.  
 
 URL : https://ip_address/application/python/function/args(0)/args(1)/....  
 args(n)는 python 내에서 request.args(n) 형식으로 URL에 적은 내용을 불러올 수 있다.  
